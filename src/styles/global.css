@@ -21,30 +21,39 @@ p {
 
 /* layout & nav */
 .layout {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 40px auto;
-  }
-  nav .links {
-    display: inline-block;
-    text-align: right;
-  }
-  nav a {
-    display: inline-block;
-    margin-left: 20px;
-    font-weight: 400;
-    padding-bottom: 8px;
-    border-bottom: 3px solid transparent;
-  }
-  nav a:hover {
-    border-color: white;
-  }
-  footer p{
-    text-align: center;
-    color: #bbb;
-    margin: 40px auto;
-  }
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px auto;
+}
+nav .links {
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  border-color: white;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+footer p{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #bbb;
+  margin: 40px auto;
+}

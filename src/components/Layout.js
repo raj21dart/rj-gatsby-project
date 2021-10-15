@@ -9,8 +9,8 @@ export default function Layout({ children }) {
             <div className="content">
                 { children }
             </div>
-            <footer>
-                <p>Copyright 2021 Rj@dart</p>
+            <footer className="footer">
+                <p>&copy; 2021 Rj21dart</p>
             </footer>
         </div>
     )
